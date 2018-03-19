@@ -1,0 +1,194 @@
+body {
+    background-color: rgba(211, 211, 211, 0.4);
+    width: 100%;
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 5px 10px 20px #888888;
+    padding: 30px;
+    width: 468px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#errorMsg {
+    color: darkred;
+    border: 1px solid lightgrey;
+    background-color: mistyrose;
+    width: 96%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14pt;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#errorDiv p {
+    padding: 10px;
+    text-align: center;
+}
+
+#user {
+    width: 80%;
+    height: 25px;
+    border-radius: 3px;
+    border: solid lightgray 1px;
+    font-size: 15px;
+    padding: 6px;
+}
+
+#searchUsername {
+    height: 39px;
+    border-radius: 3px;
+    width: 30%;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #f1f1f1;
+}
+
+#search {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.userInformation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 155px;
+    margin-top: 10px;
+}
+
+#imageDiv {
+    width: 100px;
+    height: 100px;
+}
+
+#imageDiv img {
+    width: 110px;
+    height: 110px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+#fullNameDiv {
+    font-size: 17px;
+    font-family: arial;
+    height: 40px;
+}
+
+#fullNameDiv h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+#usernameDiv {
+    font-style: italic;
+    height: 30px;
+}
+
+#usernameDiv p {
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+#bio {
+    font-family: arial;
+    font-size: 12px;
+    height: 20px;
+}
+
+#bio p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    height: 20px;
+}
+
+#allRepos {
+    max-height: 300px;
+    overflow-y: scroll;
+    margin-left: 10px;
+}
+
+#eachRepo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    border-top: solid lightgray 1px;
+    height: 50px;
+}
+
+#titleRepo {
+    height: 40px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    border-bottom: solid black 2px;
+}
+
+.iconForks {
+    width: 15px;
+    height: 23px;
+}
+
+.iconStar {
+    width: 15px;
+    height: 30px;
+}
+
+#starForks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between 2px;
+}
+
+#eachRepoStars {
+    align-items: center;
+}
+
+#eachRepoForks {
+    align-items: center;
+}
+
+#rightDiv {
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#eachRepoName {
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+#starForks img {
+    padding: 8px;
+}
